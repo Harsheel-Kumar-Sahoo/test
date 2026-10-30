@@ -30,7 +30,7 @@
     var p = location.pathname, cur = p.indexOf('/projects/') > -1 ? 'projects' : (p.split('/').pop().replace(/\.html$/, '') || 'index');
     var h = d.getElementById('site-header');
     if (h) {
-      h.innerHTML = '<div class="wrap bar"><a class="brand" href="' + ROOT + 'index.html">Harsheel <span>Sahoo</span></a><nav class="links" aria-label="Main">' +
+      h.innerHTML = '<div class="wrap bar"><a class="brand" href="' + ROOT + 'index.html">Harsheel Kumar <span>Sahoo</span></a><nav class="links" aria-label="Main">' +
         NAV.map(function (n) {
           var on = n[1] === cur;
           return '<a href="' + ROOT + n[1] + '.html"' + (on ? ' aria-current="page"' : '') + '>' + n[0] + '</a>';
