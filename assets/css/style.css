@@ -102,3 +102,4 @@ textarea{min-height:150px;resize:vertical}
 .links a:last-child{border-bottom:0}
 .links a[aria-current]{box-shadow:none;color:var(--accent)}
 .row .btn{flex:1 1 auto;justify-content:center}}
+.brand{white-space:nowrap;font-size:clamp(1rem,4.5vw,1.15rem)}
